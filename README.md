@@ -39,7 +39,7 @@ Dies ist ein Gradle Projekt, das bereits einige Testklassen enthält. Implementi
 
 Um ein Eclipse Projekt zu erzeugen, gib auf der Kommandozeile ein: `gradlew eclipse`, damit werden die Eclipse spezifischen Projektdateien erzeugt. Um das Projekt zu bauen (und zu testen), verwende `gradlew build`. 
 
-Wir sind gespannt auf Deine Lösung, die vorzugsweise in Java 8 unter Windows laufen sollte. Du kannst auch gerne eine andere Programmiersprache wählen, dann benötigen wir zusätzlich eine kurze Anleitung, wie wir den Code ausführen können. Schicke Deine Lösung bitte zusammen mit Deinen Bewerbungsunterlagen an [HR-tonbeller@fico.com](HR-tonbeller@fico.com), wir freuen uns darauf!
+Wir sind gespannt auf Deine Lösung, die vorzugsweise in Java 8 (Oracle) laufen sollte. Du kannst auch gerne eine andere Programmiersprache wählen, dann benötigen wir zusätzlich eine kurze Anleitung, wie wir den Code ausführen können. Schicke Deine Lösung bitte zusammen mit Deinen Bewerbungsunterlagen an [HR-tonbeller@fico.com](HR-tonbeller@fico.com), wir freuen uns darauf!
 
 Viel Erfolg!
 

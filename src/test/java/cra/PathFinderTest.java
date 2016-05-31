@@ -23,7 +23,7 @@ public class PathFinderTest {
     this.name = name;
   }
   
-  @Parameters
+  @Parameters(name = "Test = {0}")
   public static Iterable<Object[]> data() {
     return Arrays.asList(new Object[][] { 
              { "impossible" },
@@ -44,7 +44,7 @@ public class PathFinderTest {
 
   private String loadResource(String name) throws IOException {
     try (BufferedReader br = new BufferedReader(new InputStreamReader(PathFinderTest.class.getResourceAsStream(name)))) {
-      return br.lines().collect(Collectors.joining("\n"));
+      return br.lines().map(s -> s.trim()+ "\n").collect(Collectors.joining());
     }
   }
 
