@@ -44,7 +44,7 @@ public class PathFinderTest {
 
   private String loadResource(String name) throws IOException {
     try (BufferedReader br = new BufferedReader(new InputStreamReader(PathFinderTest.class.getResourceAsStream(name)))) {
-      return br.lines().collect(Collectors.joining("\n")).trim();
+      return br.lines().collect(Collectors.joining("\n"));
     }
   }
 
