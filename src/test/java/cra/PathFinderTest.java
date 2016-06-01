@@ -29,6 +29,7 @@ public class PathFinderTest {
              { "impossible" },
              { "simplest" },
              { "twocorners" },
+             { "alldirections" },
      });
   }
   
