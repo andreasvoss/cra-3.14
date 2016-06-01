@@ -30,7 +30,6 @@ public class PathFinderTest {
              { "twocorners_3_3" },
              { "impossible_3_3" },
              { "oneBestPath_11_17" },
-             { "small_1_1" },
              { "multipleGoodPaths_10_5" },
              { "impossible_20_10" },
              { "manyGoodPaths_10_10" },
